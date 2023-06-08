@@ -1,8 +1,12 @@
 *{
     background-color: rgb(241, 241, 241);
     text-align: center;
-    line-height: 1em;
+    line-height: 2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: block;
 }
 
 header {
@@ -12,16 +16,42 @@ header {
 #text1{
     font-weight: bolder;
     font-style: oblique;
+    height: 20%;
 }
 
 #text2{
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(109, 109, 223);
-    line-height: 1.5em;
 }
 
 #text3{
     text-decoration: underline;
     text-transform: lowercase;
 }
+
+.class1{
+    display: inline;
+    max-width: 40%;
+    min-height: 100em;
+    min-width: 20%;
+}
+
+.class2{
+    max-width: 80%;
+    max-height: 2em;
+}
+
+.class3{
+    display: inline-block;
+    width: 50%;
+    min-height: 100em;
+}
+
+/*
+
+Block : afisarea normala
+Inline : anuleaza min/max height/width
+Inline-Block : anuleaza min/max height/width si centreaza (din cauza la text-align din *)
+
+*/
